@@ -150,7 +150,7 @@ int main(){
             continue;
         }
         else{
-            if(bangHienRa[x][y] == MO ){
+            if(bangHienRa[x][y] != CHUAMO ){
             cout << "The place has been opened already, please retry!" << endl;
                 continue;
             }
